@@ -11,7 +11,7 @@ html {
 #menulogo {
     width: 84px;
     height: 56px;
-    
+    border-radius: 4px;
 }
 
 .noborder {
@@ -32,17 +32,20 @@ ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    padding-left: 10px;
     overflow: hidden;
     display: flex;
+    flex-direction: row;
+    gap: .6%;
     align-items: center;
 }
 
 ul:first-child {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 ul li {
-    margin: .2em .6%;
+    margin: .2em 0px;
     border: 1px solid white;
     border-radius: 5px;
     padding: .5em;
